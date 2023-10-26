@@ -1,0 +1,254 @@
+{
+    "kysymykset": [
+        {
+            "kysymysID": 1,
+            "kysymys": "Ihminen on psykofyysissosiaalinen kokonaisuus.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 2,
+            "kysymys": "DABDA on teoria lapsen syntymän kohtaamisesta.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 3,
+            "kysymys": "Psyykkiset defenssit ovat kaikki tiedostettuja.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 4,
+            "kysymys": "Hyvä itsetunto tarkoittaa sitä, että on aina mielestään oikeassa, paras ja kaunein/komein.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 5,
+            "kysymys": "Freudin teorian mukaan psykoseksuaalinen kehitys alkaa vasta puberteetissa eli murrosiässä.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 6,
+            "kysymys": "Temperamentteja on vauvoilla kolmenlaisia: helppoja, haastavia ja hitaasti lämpeneviä.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 7,
+            "kysymys": "Temperamentti ei ole synnynnäinen, vaan se vaihtelee tilanteen, kasvatuksen ja elämäntilanteen mukaan.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 8,
+            "kysymys": "Kiintymyssuhdemalleista turvallinen on kaikkein paras loppuelämän kannalta.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 9,
+            "kysymys": "Kielen kehityksen kannalta ovat tärkeitä keskushermoston kehitys, lapsen aktiivinen kielen käyttö, biologinen kehitys ja ympäristön puhe ja kielelliset mallit.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 10,
+            "kysymys": "Kokonaisvaltainen ja suhteellinen ajattelu (ns. postformaali ajattelu) on Jean Piaget’n alkuperäisen teorian viimeinen vaihe ja tavoite.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 11,
+            "kysymys": "Erik H. Eriksonin psykososiaalisen kehityksen teorian viimeinen vaihe on kehityskriisi, joka liittyy kuoleman kohtaamiseen ja elämän päättymiseen, ja se voi olla toisaalta minän eheyteen tai toisaalta epätoivoon ja katkeruuteen päätyvä.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 12,
+            "kysymys": "Howard Gardnerin moniälykkyysteoria sisältää nykyisin 9 lahjakkuuden tai älykkyyden eri osa-aluetta.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 13,
+            "kysymys": "Elisabeth Kübler-Rossin teoria kuoleman kohtaamisesta sisältää seuraavat vaiheet: Kieltäminen, Suuttuminen/Vihastuminen, Neuvotteleminen, Masentuminen ja Hyväksyminen",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 14,
+            "kysymys": "Kielen kehitys on kiihkeintä koulun alkaessa eli noin 6-7 -vuotiaana.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 15,
+            "kysymys": "Lev Vygotskyn Lähikehityksen vyöhyke tarkoittaa sitä kehitystä, mikä tapahtuu yksilön lähimmissä ihmisissä.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 16,
+            "kysymys": "Lawrence Kohlbergin moraalin kehitystä kuvaava teoria sisältää ajatuksen siitä, että yksilö kehittyy yleisistä eettisistä periaatteista kohti rankaisemisen, tottelemisen ja palkitsemisen vaihetta.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 17,
+            "kysymys": "Parisuhteen roolit ovat jaettavissa seuraavanlaisiin kokonaisuuksiin: Suhteen vaalija, Rajojen kunnioittaja, Arjen sankari, Rakastaja ja Kumppani.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 18,
+            "kysymys": "Leikin pohjalta ja avulla lapsi oppii mm. seuraavia asioita: kognitiivisia kykyjä, sosiaalisia taitoja, psyykkistä työtä, motoriikkaa, itseen liittyviä taitoja, iloon ja mielihyvään liittyvät tekijät ja todellisuuden harjoittelu.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 19,
+            "kysymys": "Identiteetti on aina kaikille se sama, minkä he ovat syntymässään saaneet.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 20,
+            "kysymys": "Älykkyydestä noin puolet on tutkimusten mukaan perittyä.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 21,
+            "kysymys": "Omnipotenssifantasia on kyky toimia mielikuvituksellisesti Omniassa.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 22,
+            "kysymys": "Pidemmässä parisuhteessa on havaittavissa seuraavat vaiheet: symbioosi, itsenäisyys ja toveruus.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 23,
+            "kysymys": "Oraalinen, anaalinen, fallinen, latenssi- ja genitaalivaihe ovat Anna Freudin defenssiteorian osia.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 24,
+            "kysymys": "Postformaalissa ajattelussa ominaista ovat seuraavat seikat: suhteettomuus, tiedon varmuus, ristiriitaisen tiedon kieltäminen, asioiden tarkastelu vain yhdestä näkökulmasta, oman ajattelun kritiikitön hyväksyminen sekä epäitsenäinen ajattelu.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 25,
+            "kysymys": "Leikkiterapiassa lapsi valitsee lelut ja luo leikin, jonka avulla hän kertoo ongelmistaan tai vaikeista kokemuksistaan.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 26,
+            "kysymys": "Defenssit vääristävät aina jonkin verran todellisuutta.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 27,
+            "kysymys": "Vieraan kielen oppiminen rakentuu äidinkielen osaamiselle.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 28,
+            "kysymys": "Lähikehityksen vyöhyke kuvaa sitä, mitä osaamme autettuna.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 29,
+            "kysymys": "Eriksonin teorian mukaan elämä koostuu kehityksellisistä kriiseistä, joita kohtaamme eri elämänvaiheissa.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 30,
+            "kysymys": "Freudin teorian mukaan genitaalinen psykoseksuaalisuuden vaihe kestää koko elämän.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 31,
+            "kysymys": "Leikki on lapsen työtä” kuvaa sitä, miten työlästä lapsen leikkiminen on aikuisille.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 32,
+            "kysymys": "Kohlbergin teorian mukaan kaikki saavuttavat moraalisessa kehityksessä viimeisen vaiheen, jossa yksilö toimii yleisten eettisten periaatteiden ohjaamana.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 33,
+            "kysymys": "Kübler-Rossin teorian mukaan kaikki käyvät aina kaikki kuoleman kohtaamisen vaiheet läpi samassa järjestyksessä (DABDA).",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 34,
+            "kysymys": "Halkominen (splitting), kieltäminen ja järkeistäminen (rationalisaatio) ovat toimivia coping-mekanismeja.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 35,
+            "kysymys": "Kehityskriisin läpikäyminen voi käynnistää uudelleen aiempien kehitysvaiheiden kehityksellisiä kriisejä Eriksonin teorian mukaan.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 36,
+            "kysymys": "Oidipus- ja Elektrakompleksi liittyvät Freudin psykoseksuaaliseen teorian falliseen vaiheeseen.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 37,
+            "kysymys": "Inter- ja intrapsyykkinen, eksistentiaalinen sekä loogis-matemaattinen älykkyys ovat Howard Gardnerin moniälykkyysteoriaan liittyviä käsitteitä.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 38,
+            "kysymys": "Älykkyyden ja kognitiivisten taitojen kehitys suuntautuu Piaget’n teorian mukaan konkreettisesta abstraktiin.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 39,
+            "kysymys": "Kohlbergin moraalisen kehityksen teorian sovinnaisen moraalin tason saavuttaminen tapahtuu kaikille ennemmin tai myöhemmin.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 40,
+            "kysymys": "Identiteettikriisi liittyy siihen, kuka, mikä ja millainen henkilö kokee olevansa.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 41,
+            "kysymys": "Lapsen fyysiseen kasvuun voivat vaikuttaa myös myöhemmin elämässä sikiönä koetut olosuhteet kohdussa ja perintötekijät.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 42,
+            "kysymys": "Oraalinen ja anaalinen vaihe liittyvät Freudin mukaan ensimmäisten kolmen ikävuoden kehitykseen.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 43,
+            "kysymys": "Perusluottamuksen saavuttaminen on Eriksonin psykososiaalisen kehityksen teorian mukaan ensimmäisen kehityskriisin positiivinen ratkaisu.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 44,
+            "kysymys": "Ihminen elää aina jossain kulttuurisessa kontekstissa (tilanteessa tai asiayhteydessä) ja useimmiten myös jossain yhteiskunnassa.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 45,
+            "kysymys": "Sairaudet, seksuaaliset ongelmat ja liiallinen päihteiden käyttö voivat altistaa myös mielenterveyden ongelmille.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 46,
+            "kysymys": "Leikki tarjoaa mahdollisuuden lapselle päästä ns. flow-tilaan (virtauskokemukseen), jolloin lapsi voi mm. unohtaa ajan kulumisen.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 47,
+            "kysymys": "Seksuaalinen identiteetti on läpi elämän samanlainen kaikille.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 48,
+            "kysymys": "Hoivaaminen, koulutus ja kannustava vanhemmuus edesauttavat älykkyyden kehittymistä Gardnerin moniälykkyysteorian mukaan eri osa-alueilla.",
+            "vastaus": "o"
+        },
+        {
+            "kysymysID": 49,
+            "kysymys": "Eksistentiaalinen älykkyys sekä Luonnon ymmärtäminen eivät ole Gardnerin päivitetyn moniälykkyysteorian mukaan enää älykkyyden osa-alueita.",
+            "vastaus": "v"
+        },
+        {
+            "kysymysID": 50,
+            "kysymys": "Loogisen ajattelun vaihe (ns. Formaalisten operaatioiden vaihe) mahdollistaa jo suhteellisen monimutkaisten ja abstraktien asioiden ajattelun mm. matematiikassa Piaget’n teorian mukaan.",
+            "vastaus": "o"
+        }
+    ]
+}

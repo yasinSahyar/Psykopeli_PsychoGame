@@ -1,0 +1,9 @@
+CREATE DATABASE psykopeli_playerbase;
+
+CREATE TABLE players (
+    username varchar(40) NOT NULL,
+    pass varchar(255) NOT NULL,
+    score int,
+    PRIMARY KEY (username)
+    );
+

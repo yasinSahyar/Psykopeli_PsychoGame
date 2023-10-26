@@ -1,0 +1,600 @@
+/* Pääelementit */
+body {
+   width: 1100px;
+   margin: auto;
+}
+#peli {
+    display: none;
+}
+#harjoituspeli {
+    display: none;
+}
+#Lauta {
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid black;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+}
+.lauta_kuva {
+    width: 1100px;
+}
+/* Pelinäkymän yläpalkki ja navigaatio */
+#ylapalkki {
+    width: 1100px;
+}
+.nav {
+    color: #E85024;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 1100px;
+}
+.nav p {
+    margin: 0;
+}
+.Aloita:hover {
+    color: black;
+    cursor: pointer;
+}
+.Lopeta:hover {
+    color: black;
+    cursor: pointer;
+}
+.Pistemaara {
+    display: none;
+}
+.Virhemaara {
+    display: none;
+}
+.volume {
+    display: none;
+}
+.Lopeta{
+    display: none;
+}
+
+/* Pelilaudan sisältö */
+    /* Elämälaskuri */
+    #hbar {
+        display: none;
+        justify-content: center;
+        position: absolute;
+        background-color: white;
+        border-radius: 5px;
+        top: 10px;
+    }
+    #hide_red{
+        display: none;
+    }
+    #life img{
+        width: 75%;
+        height: 75%;
+    }
+    /* Pelinappula */
+    .nappula {
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top: 650px;
+        left: 400px;
+        display: grid;
+    }
+    .nappula_img {
+        width: 70px;
+        margin: -20px;
+        filter: drop-shadow(0px 5px 3px rgba(43, 43, 43, 0.452));
+    }
+
+    /*Kysymysboksi*/
+    #kysymysLaatikko {
+        display: none;
+        margin-top: 37.5em;
+        margin-left: 32.5em;
+        z-index: 1;
+        position: absolute;
+    }
+    .kortti  {
+        background-color: rgb(173, 216, 230);
+        border: 6px solid white;
+        outline: 13px solid lightblue;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .front {
+        margin-left: 2px;
+        top: 58px;
+        transform: rotate(-45deg);
+    }
+    .front .kortti_img {
+        width: 202px;
+        position: absolute;
+        margin-left: -29px;
+        top: -25px;
+    }
+    .back {
+        margin-top: -10.5em;
+        margin-left: -3em;
+        border: 4px solid white;
+        outline: 9px solid lightblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .overlay {
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.0);
+    }
+    .kysymys {
+        height: 100px;
+    }
+    .kysymys p {
+        font-family: sans-serif;
+        color: #000;
+        font-size: 9px;
+        width: 92%;
+        position: absolute;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .kysymys img {
+        vertical-align: middle;
+    }
+    .yla {
+        font-family: sans-serif;
+        font-size: 8px;
+        margin-top: 10%;
+        width: 70%;
+    }
+    .napit {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 23px;
+
+    }
+    .napit button {
+        font-size: 11px;
+        font-weight: 550;
+        margin: 4px;
+        width: 55px;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 7px;
+        padding: 5px;
+        transition: 0.4s ease;
+        cursor: pointer;
+    }
+    .oikein {
+        background-color: rgb(73, 184, 73);
+    }
+    /* oikein-napille painallusalue. Siinä oli bugeja ilman tätä */
+    .oikein:before {
+        border-radius: 7px;
+        position: absolute;
+        content: '';
+        top: 4px;
+        right: 71px;
+        left: 4px;
+        bottom: 4px;
+    }
+    .vaarin {
+        background-color: rgb(226, 84, 84);
+    }
+
+    
+    /* Kortin reunojen vilkkumisanimaatio */
+    .flashr {
+        animation: flashr 1s;
+    }
+    .flashg {
+        animation: flashg 1s;
+    }
+    @keyframes flashg {
+        0% {
+            border-color: white;
+        }
+        50% {
+            border-color: rgb(73, 184, 73);
+        }
+        100% {
+            border-color: white;
+        }
+    }
+    @keyframes flashr {
+        0% {
+            border-color: white;
+        }
+        50% {
+            border-color: rgb(226, 84, 84);
+        }
+        100% {
+            border-color: white;
+        }
+    }
+    /* Jatkokysymys */
+    #jatkoKysymys {
+        width: 500px;
+        height: auto;
+        background-color: rgba(9, 9, 9, 0.644);
+        border: 5px orange solid;
+        border-radius: 30px;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        display: none;
+        margin-top: 20px; 
+        font-family: 'Oswald', sans-serif;
+    }
+    #jatkoKysymys {
+        color: white;
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    #jatkaHarjoitusta {
+        color: white;
+        font-size: 1.25em;
+    }
+    
+    #jatkaHarjoitusta:hover {
+        text-decoration: underline;
+        text-decoration-color: white;
+        cursor: pointer;
+    }
+
+/* Loppuruutu */
+#loppuruutu {
+    width: 500px;
+    height: auto;
+    background-color: rgba(9, 9, 9, 0.644);
+    border: 5px orange solid;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: none;
+    margin-top: 20px;
+}
+#loppuruutu-otsikko {
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+#pisteluettelo {
+    margin: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+#alkuun {
+    color: white;
+    font-size: 1.25em;
+}
+.valikko {
+    color: white;
+    font-size: 1.25em;
+}
+#alkuun:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+.valikko:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+/*Pistetaulu */
+#Pistetaulu {
+    width: 500px;
+    height: auto;
+    background-color: rgba(9, 9, 9, 0.644);
+    border: 5px orange solid;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: none;
+    margin-top: 20px;
+}
+#Pistetaulu-otsikko {
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+#pistetaulukko {
+    margin: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+#Pistetaulu table {
+    text-align: center;
+    font-size: 22.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Pistetaulu td {
+    color: white;
+    text-decoration: none;
+}
+/* Alkuruutu */
+#alkuruutu {
+    top: 40px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: 'oswald', sans-serif;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+#alkuruutu-otsikko {
+    border-bottom: 3px solid white;
+    text-align: center;
+    padding-top: 10px;
+}
+    /* Valikon muotoilu */
+    #menu {
+        text-align: center;
+        display: block;
+    }
+    #menu a {
+        color: white;
+        text-decoration: none;
+    }
+    /* Valikon otsikot, display-asetukset */
+    #otsikko {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid white;
+        margin-top: 10px;
+    }
+    .menu-otsikko {
+        display: block;
+    }
+    .login-otsikko {
+        display: none;
+    }
+    .yksinpeli-otsikko {
+        display: none;
+    }
+    .reg-otsikko {
+        display: none;
+    }
+    /* Valikon elementit */
+    .Kirjaudu {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+        display: block;
+    }
+    .Info {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+    }
+    .Kirjautunut {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+        display: block;
+    }
+    #logout {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'oswald', sans-serif;
+        font-size: 22.5px;
+        color: white;
+        line-height: 28px;
+        box-sizing: border-box;
+    }
+    .Yksinpeli {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .moninpeli {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .tiedot {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .Takaisin {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    /* yksinpelivalikko */
+    #yksinpeli {
+        text-align: center;
+        display: none;
+    }
+    #yksinpeli a {
+        color: white;
+        text-decoration: none;
+    }
+    .Kestopeli {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .KestoDENIED {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .KestoDENIED p {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'oswald', sans-serif;
+        font-size: 22.5px;
+        line-height: 28px;
+        box-sizing: border-box;
+        color: grey;
+    }
+    .Harjoituspeli {
+        font-size: 22.5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+
+    /* hover */
+
+        /* infolaatikot */
+        .Kirjaudu:hover .Info {
+            visibility: visible;
+        }
+        .Yksinpeli:hover .Info{
+            visibility: visible;
+        }
+        .moninpeli:hover .Info {
+            visibility: visible;
+        }
+        .Kestopeli:hover .Info {
+            visibility: visible;
+        }
+        .KestoDENIED:hover .Info {
+            visibility: visible;
+        }
+        .Harjoituspeli:hover .Info {
+            visibility: visible;
+        }
+        .Takaisin:hover .Info {
+            visibility: visible;
+        }
+        /* hover-muotoilut */
+        /* a */
+        .Kirjaudu a:hover {
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+        .Yksinpeli a:hover {
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+        .moninpeli a:hover {
+            border-bottom: 3px solid white;
+        }
+        .tiedot a:hover {
+            border-bottom: 3px solid white;
+        }
+        #loginform a:hover {
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+        #yksinpeli a:hover {
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+        #regform a:hover { 
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+        
+        /* buttonit */
+        .button:hover {
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+        #logout:hover {
+            border-bottom: 3px solid white;
+            cursor: pointer;
+        }
+
+
+    /* login & register */
+    #login {
+        text-align: center;
+        display: none;
+    }
+    #loginform table {
+        text-align: center;
+        font-size: 22.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #login-head {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid white;
+        margin-top: 10px;
+    }
+    #login td {
+        color: white;
+        text-decoration: none;
+    }
+    #register {
+        text-align: center;
+        display: none;
+    }
+
+    #regform table {
+        text-align: center;
+        font-size: 22.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #register td {
+        color: white;
+        text-decoration: none;
+    }
+    .button {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'oswald', sans-serif;
+        font-size: 22.5px;
+        color: white;
+        line-height: 24px;
+    }
+
+
+
+/* vanha testausnappi */
+.toggle_card {
+    position: absolute;
+    z-index: 9999;
+}
+.toggle_card button {
+    padding: 20px;
+}
