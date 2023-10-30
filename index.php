@@ -4,6 +4,9 @@
     include "create_acc.php";
     include "login.php";
     include "score_update.php";
+    // include "upload.php";
+    // include "download.php";
+   
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,9 +25,11 @@
     <title>PsykoPeli</title>
 </head>
 <body>
+    <h1>@by:yasin</h1>
     
     <!--Alkuruutu-->
     <div id="alkuruutu">
+       
         <div id="alkuruutu-otsikko">
             <img src="lgo.png" width="400px" height="150px">
         </div>
@@ -41,6 +46,13 @@
         <div id="otsikko" class="reg-otsikko">
             <a>Luo tunnus</a>
         </div>
+        
+        <!-- <div id="otsikko" class="menu-otsikko">
+           <a href="upload.php">Upload</a>
+        </div>
+        <div id="otsikko" class="menu-otsikko">
+            <a>Download</a>
+        </div> -->
         <!--menu-->
         <div id="menu">
             <?php if(isset($_SESSION['psyko'])) { ?>
@@ -61,6 +73,18 @@
             <div class="tiedot">
                 <a>Tiedot</a>
             </div>
+            <div id="otsikko" class="menu-otsikko">
+                <a href="upload.php">Upload</a>
+            </div>
+            <div id="otsikko" class="menu-otsikko">
+                <a href="download.php">Download</a>
+            </div>
+            <!-- <div class="upload">
+                 <a href="#" id="upload-link">Upload</a>
+            </div>
+            <div class="download">
+                <a>Download</a>
+            </div> -->
         </div>
         <!--Kirjautuminen ja tunnuksien luonti-->
         <div id="login">
@@ -146,6 +170,11 @@
                 <a>Takaisin<span class="Info">Paluu alkuvalikkoon</span></a>
             </div>
         </div>
+
+            
+        
+
+
     </div>
     
     <!--Pelinäkymä-->

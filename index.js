@@ -241,11 +241,11 @@ $(document).ready(function(event){
         document.getElementById("life3").src="icons8-psi-67_gold.png";
         if(harjoitus==false){
             updateScore(loppupisteet);
-            haePisteet();
         }
         $(".pisteet").css("color", "#E85024");
         $(".Pistemaara").css("color", "#E85024");
-    }
+    }         haePisteet();
+   
 
 // Kortin funktiot
     
@@ -589,4 +589,38 @@ $(document).ready(function(event){
             }
         });*/
     /*}*/
+    // $(document).ready(function() {
+    //     // ...
+    
+    //     // Function to handle the form submission when the user clicks the "Upload" button
+    //     $("#upload-form").submit(function(e) {
+    //         e.preventDefault();
+    
+    //         // Get the selected file from the file input field
+    //         var file = $("#file-input")[0].files[0];
+    
+    //         // Create a FormData object and append the selected file to it
+    //         var formData = new FormData();
+    //         formData.append('file', file);
+    
+    //         // Make an AJAX request to the server to upload the file
+    //         $.ajax({
+    //             url: 'upload.php', // Replace 'upload.php' with the URL of your server-side script
+    //             type: 'POST',
+    //             data: formData,
+    //             processData: false,
+    //             contentType: false,
+    //             success: function(response) {
+    //                 // Handle the server response (e.g., display a success message)
+    //                 console.log("File uploaded successfully:", response);
+    //             },
+    //             error: function(xhr, status, error) {
+    //                 // Handle errors
+    //                 console.error("File upload error:", error);
+    //             }
+    //         });
+    //     });
+    // });
+    
+    
 });
